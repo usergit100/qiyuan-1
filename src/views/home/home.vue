@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    首页
+    首页  测试修改
   </div>
 </template>
 
