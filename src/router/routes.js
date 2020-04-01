@@ -72,7 +72,7 @@ export default [
           noAuth: true, // 不需要登录权限，默认需要权限
           noCache: false // 不缓存页面，默认缓存
         },
-        component: () => import(/* webpackChunkName: "rank" */'@/views/home/reqArticle')
+        component: () => import(/* webpackChunkName: "rank" */'@/views/home/req-article')
       }]
   }, {
     path: '*',
