@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
-    首页 测试修改
+  <div class="artist">
+    美工专区
   </div>
 </template>
 
 <script>
   export default {
-    name: 'home'
+    name: 'artist'
   }
 </script>
 

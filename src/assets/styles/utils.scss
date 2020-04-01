@@ -1,7 +1,7 @@
 // utils 工具
 // 颜色
-.bg-black {
-  background-color: $color-black !important;
+.bg-dark {
+  background-color: $color-dark !important;
 }
 
 .bg-white {
@@ -16,52 +16,36 @@
   background-color: $color-red !important;
 }
 
-.bg-purple {
-  background-color: $color-purple !important;
-}
-
-.bg-orange {
-  background-color: $color-orange !important;
+.bg-yellow {
+  background-color: $color-yellow !important;
 }
 
 .bg-blue {
   background-color: $color-blue !important;
 }
 
-.color-red {
-  color: $color-red !important;
+.bg-deep {
+  background-color: $color-deep !important;
 }
 
-.color-purple {
-  color: $color-purple !important;
-}
-
-.color-orange {
-  color: $color-orange !important;
-}
-
-.color-blue {
-  color: $color-blue !important;
+.text-red {
+  color: $color-red;
 }
 
 .text-black {
-  color: #000;
+  color: $color-black;
 }
 
 .text-dark {
-  color: #333;
+  color: $color-dark;
 }
 
-.text-deep {
-  color: #555;
-}
-
-.text-weak {
-  color: #B3B3B3;
+.text-blue {
+  color: $color-blue;
 }
 
 .text-white {
-  color: #fff;
+  color: $color-white;
 }
 
 // 字体
@@ -77,12 +61,12 @@
   font-size: 14px;
 }
 
-.f15 {
-  font-size: 15px;
+.f16 {
+  font-size: 16px;
 }
 
-.f17 {
-  font-size: 17px;
+.f18 {
+  font-size: 18px;
 }
 
 .f20 {
