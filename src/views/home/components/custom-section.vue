@@ -11,13 +11,14 @@
           <el-link :icon="icon">
             {{actionText}}
             <custom-icon :type="actionIcon"
-                         :size="iconSize"></custom-icon>
+                         :size="iconSize"
+                         :underline="false"></custom-icon>
           </el-link>
         </slot>
       </div>
     </div>
     <section class="custom-section__body bg-weak"
-             :class="[...[className].flat(Infinity)]">
+             :style="{height}">
       <slot></slot>
     </section>
   </section>
@@ -47,9 +48,9 @@
         type: [String, Number],
         default: 16
       },
-      className: {
-        type: [String, Array],
-        default: ''
+      height: {
+        type: String,
+        default: 'auto'
       }
     },
     computed: {
@@ -63,10 +64,13 @@
 <style scoped
        lang="scss">
   .custom-section {
+    width: 100%;
+
     &__header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 6px;
       border-bottom: 1px solid $color-deep;
     }
   }

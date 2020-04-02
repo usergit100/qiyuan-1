@@ -1,7 +1,7 @@
 <template>
   <div class="page-container">
     <header class="page-header">
-      <div class="page-header__logo bg-dark text-color">
+      <div class="page-header__logo bg-dark text-white">
         LOGO
       </div>
       <div class="page-header__actions">
